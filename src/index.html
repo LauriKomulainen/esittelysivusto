@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esittely</title>
+  <link rel="stylesheet" href="./tyylit/style.css">
+  <link rel="stylesheet" href="./tyylit/navigointityyli.css">
+  <link rel="stylesheet" href="./tyylit/projektit.css">
+
+</head>
+
+<body>
+  <html>
+
+  <!---Header-->
+  <header class="cover">
+    <div class="navigointi">
+      <a href="">Etusivu</a>
+      <a href="#projekti">Projektit</a>
+      <a href="#info">Info</a>
+      <a href="#otayhteytta">Ota yhteyttä</a>
+    </div>
+  </header>
+
+  <!--Projektit-->
+  <div id="projekti">
+    <section>
+      <h1>Projektit</h1>
+      <div class="container">
+        <div class="item" id="1">
+          <img src="./kuvat/punakarpassieni.jpg" alt="Kuvaa ei pystytty lataamaan">
+          <div class="text">
+            <h3>Websovellus sienentunnistamiseen</h3>
+            <p>Lyhyt kuvaus projektista</p>
+          </div>
+          <div class="button">Lisää tietoa</div>
+        </div>
+        <div class="item" id="2">
+          <img src="./kuvat/safetychecker.png" alt="Kuvaa ei pystytty lataamaan">
+          <div class="text">
+            <h3>Turvatarkastukset lääkkeille</h3>
+            <p>Lyhyt kuvaus projektista</p>
+          </div>
+          <div class="button">Lisää tietoa</div>
+        </div>
+        <div class="item" id="3">
+          <img src="./kuvat/haasivusto.png" alt="Kuvaa ei pystytty lataamaan">
+          <div class="text">
+            <h3>Hääsivusto</h3>
+            <p>Lyhyt kuvaus projektista</p>
+          </div>
+          <div class="button">Lisää tietoa</div>
+        </div>
+        <div class="item" id="4">
+          <img src="./kuvat/tietoaminusta.png" alt="Kuvaa ei pystytty lataamaan">
+          <div class="text">
+            <h3>Tietoa minusta</h3>
+            <p>Lyhyt kuvaus projektista</p>
+          </div>
+          <div class="button">Lisää tietoa</div>
+        </div>
+      </div>
+  </div>
+  <section>
+    <!-- Modal -->
+    <div id="preview" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="img" src="">
+        <div id="details">
+          <h3 id="title"></h3>
+          <p id="info">Some text</p>
+          <div class="button" id="live">Tutustu projektiin githubissa</div>
+          <i class="fab fa-github-square" id="github"></i>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div id="info"></div>
+    <div id="otayhteytta"></div>
+    <footer id="footer"></footer>
+</body>
+
+</html>
+<script src="./javascript/projektit.js"></script>
+
+</body>
+
+</html>
